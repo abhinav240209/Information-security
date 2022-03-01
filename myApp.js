@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
-npm install helmet --save;
+
 const express = require("express");
 const helmet = require("helmet");
 
 const app = express();
 
-app.use(helmet());
+
 
 helmet.hidePoweredBy();
 
